@@ -3,7 +3,7 @@
 # Date 02/25/2021
 import re  # import Regular Expression module
     
-cycle=int(input("enter number of word"))
+cycle=int(input("enter number of word that you want to make file:\n"))
 
  
 class Code:  # Class Name
