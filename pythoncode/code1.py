@@ -32,7 +32,7 @@ class Code:  # Class Name
                 str2 = file1[i] + " "+file1[i+4] + " "+file1[i+9] + " "
                 str1 = file1[i-9] + " "+file1[i-4] + " " + str2
                 # convert str1 value in string
-                self.Output_file.write(str(str1) + ":")
+                self.Output_file.write(str(str1) + " ")
                 self.Output_file.write("\n")  # for next line
         self.Output_file.write(str(self.count))
 
